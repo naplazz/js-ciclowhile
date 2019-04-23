@@ -1,18 +1,11 @@
-//creo array nomi
-
 var nomi = ['mario', 'luigi', 'gaia'];
-
-
-//var newName = prompt('inserisci il tuo nome');
 var i = 0;
-
+var newName = prompt("Inserisci un Nome")
+nomi.push(newName);
 while (i < nomi.length) {
 
-  document.getElementById("lista-nomi").innerHTML = "<li>" + nomi[i] + "</li>";
-  console.log(nomi[i]);
+  nomi.sort();
+  document.getElementById("lista-nomi").innerHTML += "<li>" + nomi[i] + "</li>";
+  //console.log(nomi[i]);
   i++;
 }
-
-// nomi.push(newName);
-// nomi.sort();
-// document.writeln(nomi);

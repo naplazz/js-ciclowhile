@@ -12,11 +12,24 @@
 
 
 }
-
 h1 {
   text-align: center;
   background-color: gray;
   color: white;
   margin: 0;
 
+}
+ul {
+  font-size: 15px;
+  padding: 30px 100px;
+}
+input {
+  border: 1px solid black;
+  width: 100%;
+}
+.newList {
+  text-align: center;
+}
+button {
+  width: 100%
 }
