@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.little-box {
+  width: 400px;
+  background-color: lightgray;
+  margin: 20px;
+
+
+}
+
+h1 {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  margin: 0;
+
+}
