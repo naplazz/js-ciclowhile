@@ -1,4 +1,4 @@
-var nomi = ['mario', 'luigi', 'gaia'];
+var nomi = ['mario', 'luigi', 'gaia', "er pomata", "er secco", "er braciola"];
 var i = 0;
 var newName = prompt("Inserisci un Nome")
 nomi.push(newName);
@@ -9,3 +9,7 @@ while (i < nomi.length) {
   //console.log(nomi[i]);
   i++;
 }
+
+
+var n = nomi.indexOf(newName)
+document.getElementById("pos").innerHTML = n + 1;
